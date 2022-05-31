@@ -1,4 +1,2 @@
-{
-  "language": "csharp",
-  "solution": "ImageSearchApp.sln"
-}
+language: csharp
+solution: ImageSearchApp.sln
