@@ -6,21 +6,21 @@ namespace ImageSearchApp.Tests
     [TestClass]
     public class MainWindowTest
     {
-        [TestMethod]
-        public void CallFlickrApiTest()
-        {
-            try
-            {
-                MainWindow mainWindowObj = new MainWindow();
-                mainWindowObj.CallFlickrApi(null, null, null, 0);
-                return;
-            }
-            catch (Exception ex)
-            {
-                Assert.Fail(ex.Message);
-            }
+        //[TestMethod]
+        //public void CallFlickrApiTest()
+        //{
+        //    try
+        //    {
+        //        MainWindow mainWindowObj = new MainWindow();
+        //        mainWindowObj.CallFlickrApi(null, null, null, 0);
+        //        return;
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        Assert.Fail(ex.Message);
+        //    }
 
-        }
+        //}
 
         [TestMethod]
         public void Detail_ClickTest()
@@ -70,25 +70,25 @@ namespace ImageSearchApp.Tests
 
         }
 
-        [TestMethod]
-        public void CallFlickrApiTest_ValidCall()
-        {
-            MainWindow mainWindowObj = new MainWindow();
-            mainWindowObj.CallFlickrApi("507f934477929499ba1dc73b7b592505", "507f934477929499ba1dc73b7b592505", "tree", 1);
-            Assert.IsNotNull(mainWindowObj.imageSourceList);
+        //[TestMethod]
+        //public void CallFlickrApiTest_ValidCall()
+        //{
+        //    MainWindow mainWindowObj = new MainWindow();
+        //    mainWindowObj.CallFlickrApi("507f934477929499ba1dc73b7b592505", "507f934477929499ba1dc73b7b592505", "tree", 1);
+        //    Assert.IsNotNull(mainWindowObj.imageSourceList);
 
-        }
+        //}
 
-        [TestMethod]
-        public void CallFlickrApiTest_InvalidCall()
-        {
+        //[TestMethod]
+        //public void CallFlickrApiTest_InvalidCall()
+        //{
 
-            MainWindow mainWindowObj = new MainWindow();
-            mainWindowObj.CallFlickrApi("", "", "tree", 1);
-            Assert.IsNull(mainWindowObj.imageSourceList);
+        //    MainWindow mainWindowObj = new MainWindow();
+        //    mainWindowObj.CallFlickrApi("", "", "tree", 1);
+        //    Assert.IsNull(mainWindowObj.imageSourceList);
 
 
-        }
+        //}
 
     }
 }
