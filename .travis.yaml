@@ -1,0 +1,9 @@
+language: csharp
+solution: ImageSearchApp.sln
+
+install:
+  - sudo apt-get install nunit-console
+  - nuget restore ImageSearchApp.sln
+
+script:
+  - xbuild ImageSearchApp.sln

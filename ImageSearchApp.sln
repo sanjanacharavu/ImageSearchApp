@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30204.135
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageSearchApp", "ImageSearchApp\ImageSearchApp.csproj", "{A17DF4DF-69B8-4528-8D0C-6150211F852B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageSearchApp.Tests", "ImageSearchApp.Tests\ImageSearchApp.Tests.csproj", "{93CFAAF8-7293-42DF-8111-EAB8E51AE885}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{A17DF4DF-69B8-4528-8D0C-6150211F852B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A17DF4DF-69B8-4528-8D0C-6150211F852B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A17DF4DF-69B8-4528-8D0C-6150211F852B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{93CFAAF8-7293-42DF-8111-EAB8E51AE885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{93CFAAF8-7293-42DF-8111-EAB8E51AE885}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{93CFAAF8-7293-42DF-8111-EAB8E51AE885}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{93CFAAF8-7293-42DF-8111-EAB8E51AE885}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
